@@ -1,5 +1,5 @@
 <?php
-   echo exec('python hello.py');
-   exec('python hits.py', $hits);
+   echo exec('python counter.py');
+   $hits = exec('python hits.py');
    echo $hits;
 ?>
